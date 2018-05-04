@@ -1,0 +1,14 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.app-link {
+}
+
+.app-link a {
+  color: #9baec8;
+  text-decoration: none;
+}
+

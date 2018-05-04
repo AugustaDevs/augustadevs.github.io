@@ -1,0 +1,31 @@
+.homepage {
+}
+
+.intro {
+  padding-top: 150px;
+  height: 65vh;
+  background: linear-gradient(#20242c 30px, #282d37);
+}
+
+.divider {
+  width: 100%;
+  height: 100px;
+  background-color: #292d38;
+  background-size: 500px 500px;
+  background-image: url('../../images/Asset 60.png');
+}
+
+.purpose {
+  height: 500px;
+  background-color: #282d37;
+}
+
+.contact {
+  height: 150px;
+  text-align: center;
+  background-color: #161920;
+}
+
+
+
+
