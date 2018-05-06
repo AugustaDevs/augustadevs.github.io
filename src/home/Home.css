@@ -3,7 +3,7 @@
 
 .intro {
   padding-top: 150px;
-  height: 65vh;
+  height: 60vh;
   background: linear-gradient(#20242c 30px, #282d37);
 }
 
@@ -21,10 +21,11 @@
 }
 
 .contact {
-  height: 150px;
+  height: 100px;
   text-align: center;
   background-color: #161920;
 }
+
 
 
 

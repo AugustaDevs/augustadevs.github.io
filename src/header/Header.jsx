@@ -12,6 +12,9 @@ const Header = () => (
       <a className="link" href="https://github.com/AugustaDevs" target="_">
         Github
       </a>
+      <a className="link" href="/Resources">
+        Developer Resources
+      </a>
     </div>
   </div>
 );
