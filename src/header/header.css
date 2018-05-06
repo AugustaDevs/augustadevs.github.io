@@ -1,0 +1,31 @@
+.header-container {
+  background-color: #21252e;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  z-index: 5;
+}
+
+.header-title {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-title h2 {
+  padding-left: 10px;
+}
+
+.header-links {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.link {
+  text-decoration: none;
+  color: #9baec8;
+}
