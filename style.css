@@ -1,0 +1,43 @@
+header {
+    position: fixed;
+    border: 1px solid blanchedalmond;
+    width: 100%;
+    top: 0;
+
+}
+
+.hero {
+    height: 800px;
+    border: 2px solid aquamarine;
+    margin: 100px;
+    text-align: center;
+}
+.about {
+    height: 600px;
+    background-color: rebeccapurple;
+    margin: 50px;
+    text-align: center;
+}
+.about>h6 {
+    font-size: 60px;
+    line-height: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.feature {
+    height: 600px;
+    background-color: palevioletred;
+    margin: 50px;
+    text-align: right;
+    font-size: 20px;
+    line-height: 16px;
+    padding: 200px;
+}
+.call-us {
+    height: 600px;
+    background-color: burlywood;
+    margin: 50px;
+    text-align: right;
+    font-size: 20px;
+    line-height: 16px;
+    padding: 200px;
+}
