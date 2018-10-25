@@ -5,7 +5,7 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 main {
-    width: 90%;
+    width: 100%;
     display: block;
     margin: 0 auto;
     background-color: white;
@@ -28,8 +28,8 @@ a {
 }
 
 
-header>img {
-    width: 20%;
+header > img {
+    width: 100%;
 }
 img {
     width: 100%;
@@ -45,7 +45,7 @@ img {
     padding: 20px 0;
 }
 .meetup {
-    width: 80%;
+    width: 100%;
     margin: 20px auto;
     background-color: white;
 }
@@ -56,3 +56,11 @@ img {
     padding: 20px;
 }
 
+@media (min-width: 500px) {
+    header > img {
+        width: 20%;
+    }
+    .meetup {
+        width: 80%;
+    }
+}
