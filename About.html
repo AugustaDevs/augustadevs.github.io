@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>About-The Augusta Developer</title>
+</head>
+<body>
+    <header>
+        <img src="images/Ghub-icon.png" alt="The Augusta Developer Logo">
+        <!--<div class="topnav">
+            <a href="index.html">Home</a>
+            <a href="events.html">Events</a>
+            <a href="news.html">News</a>
+            <a href="about.html">About</a>
+        </div>-->
+       <n class="topnav">
+            <nav class="navbar navbar-dark bg-dark" >
+                <ul class="navbar-nav">
+                    <li class="nav-item" >
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item" >
+                        <a class="nav-link" href="Events.html">Events</a>
+                 </li>
+                    <li class="nav-item" >
+                        <a class="nav-link" href="News.html">News</a>
+                    </li>
+                    <li class="nav-item" >
+                        <a class="nav-link" href="About.html">About</a>
+                    </li>
+                </ul>
+            </nav>
+        </n>
+    </header>
+    <main>
+        <h1>About us</h1>
+        <h1>Meetup Locations </h1>
+
+    <section class="past-meetups" >
+        <l class="locations">
+        <div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" src="https://jagwire.augusta.edu/wp-content/uploads/sites/15/2018/07/Unknown.jpeg" alt="Georgia Cyber Center">
+    <div class="card-block">
+      <h4 class="card-title"><a href="https://theclubhou.se">TheClubhou.se Georgia Cyber Center Location</a></h4>
+      <p class="card-text">100 Grace Hopper Lane</p>
+        <p class="card-text">Augusta, GA 30901</p>
+        <p class="card-text">Third floor. Turn left out of elevator.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="https://assets.simpleviewcms.com/simpleview/image/fetch/c_fill,h_510,q_75,w_680/https://res.cloudinary.com/simpleview/image/upload/crm/augusta/theC_540telfairStreet_AD9382D7-F421-45BD-A2AEAA5D9438430E_ab791afa-2936-42e1-a1d03c5b241fb8b3.jpg" alt="540 Telfair Street">
+    <div class="card-block">
+        <h4 class="card-title"><a href="https://theclubhou.se">TheClubhou.se Old Academy of Richmond County Location</a></h4>
+      <p class="card-text">540 Telfair Street</p>
+        <p class="card-text">Augusta, GA 30901</p>
+    </div>
+  </div>
+</div>
+        </l>
+        <!--<h3> NOTE: Due to renovations, all meetups will be hosted at the Georgia Cyber Center location until further notice.</h3>-->
+        <!--<h3>Past Meetups</h3>-->
+
+        <!--<div class="meetup">
+            <a href="https://medium.com/@axecopfire/meetup-mayhem-f43fa5f1da9c">
+                <h4>Meetup Mayhem</h4>
+                <img src="images/wk3.png" alt="Facebook trying to spread slanderous lies about how many people showed up to the meetup">
+            </a>
+        </div >
+
+
+        <div class="meetup" >
+            <a href="https://medium.com/@axecopfire/iterative-improvement-1dcf33c98582">
+                <h4>A Meetup’s Iterative improvement</h4>
+                <img src="images/wk2.jpg" alt="Facebook trying to spread slanderous lies about how many people showed up to the meetup">
+            </a>
+        </div>
+
+
+       <div class="meetup">
+            <a href="https://medium.com/@axecopfire/a-meetup-the-reverse-train-wreck-825c03aea4f5">
+                <h4>A Meetup The Reverse Train Wreck</h4>
+                <img src="images/wk1.png" alt="Facebook trying to spread slanderous lies about how many people showed up to the meetup">
+            </a>
+       </div>-->
+
+
+    </section>
+
+</main>
+
+   <footer>
+        <p> The Augusta Developer, Copyright &copy;<span id="date"></span></p>
+        <p> Website Developed By <a href="https://emsoftwareinnovators.github.io/">EM Software Innovators</a></p>
+    </footer>
+
+    <script>
+        var date = document.getElementById("date");
+        var thisYear = new Date();
+        thisYear = thisYear.getFullYear();
+        date.innerHTML = thisYear;
+    </script>
+
+</body>
+</html>
