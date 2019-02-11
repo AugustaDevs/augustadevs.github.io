@@ -26,7 +26,17 @@ h2 {
 a {
     color: darkslategray;
 }
-
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar-nav, .nav-item, .nav-link
+{
+    display: inline;
+    padding: 8px;
+}
 
 header > img {
     width: 100%;
@@ -43,6 +53,10 @@ img {
 }
 .meetup h4 {
     padding: 20px 0;
+}
+.locations img
+{
+    height: 500px;
 }
 .meetup {
     width: 100%;
