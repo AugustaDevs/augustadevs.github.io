@@ -170,3 +170,41 @@ footer>p {
     margin: 10px auto;
     font-size: .9rem;
 }
+
+
+/* Event Page */
+
+#events {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#events>.card {
+    border-radius: 10px;
+    margin: 20px;
+    width: 30%;
+    max-width: 500px;
+    flex: auto;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .2);
+}
+
+@media(max-width: 800px) {
+    #events>.card {
+        width: 100%;
+    }
+}
+
+.card-block {
+    text-align: center;
+    padding: 10px;
+}
+
+.card-block>h4 {
+    font-size: 1.5rem;
+}
+
+.card-block p {
+    padding: 10px 0;
+}
