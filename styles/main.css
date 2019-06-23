@@ -19,6 +19,13 @@ ul {
     padding: 0;
 }
 
+
+/* Top header */
+
+.top-header {
+    background-color: #fff;
+}
+
 .navbar-nav,
 .nav-item,
 .nav-link {
@@ -146,4 +153,20 @@ img {
     .meetup {
         width: 80%;
     }
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #eef;
+    margin: 0;
+    text-align: center;
+    padding: 40px 0;
+    opacity: .6;
+}
+
+footer>p {
+    margin: 10px auto;
+    font-size: .9rem;
 }
