@@ -1,46 +1,121 @@
-
 body {
-    background-color: #eee;
+    background-color: #ddf;
     color: darkslategray;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
 }
+
 main {
-    width: 100%;
-    display: block;
-    margin: 0 auto;
-    background-color: white;
     padding: 40px 0;
 }
-h1, h2, h3, h4 {
-    text-align: center;
-}
-h1 {
-    font-size: 30px;
-    line-height: 35px;
 
-}
-h2 {
-    font-size: 24px;
-    line-height: 30px;
-}
 a {
     color: darkslategray;
 }
-ul
-{
+
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-.navbar-nav, .nav-item, .nav-link
-{
+
+
+/* Top header */
+
+.top-header {
+    background-color: #fff;
+}
+
+.navbar-nav,
+.nav-item,
+.nav-link {
     display: inline;
     padding: 8px;
 }
 
-header > img {
+
+/* FrontMatter */
+
+main>header {
+    text-align: center;
+    line-height: 1.5;
+    max-width: 1250px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+main>header>h1 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+main>header>h2 {
+    font-size: 20px;
+    font-style: italic;
+    opacity: .9;
+    margin-bottom: 20px;
+    max-width: 60%;
+    margin: 0 auto 2rem auto;
+}
+
+
+/* Index page style */
+
+.flex-sections {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1250px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .3);
+    background-color: #eef;
+    border-radius: 5px;
+}
+
+.meetup-desc {
+    padding: 25px;
+    max-width: 800px;
+    margin: 30px;
+}
+
+.meetup-desc>h3 {
+    line-height: 1.6;
+    font-size: 16px;
+    opacity: .7;
+}
+
+.meetup-desc {
+    width: 50%;
+}
+
+@media(max-width: 800px) {
+    .flex-sections {
+        display: block;
+        Padding: 10px;
+    }
+    .meetup-desc {
+        margin: 20px auto 0;
+        width: 100%;
+    }
+}
+
+
+/* Carousel Slider on Index */
+
+.carousel.slide {
+    max-width: 500px;
+    margin: 0 15px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
+}
+
+header>img {
     width: 100%;
 }
+
 img {
     width: 100%;
 }
@@ -48,33 +123,88 @@ img {
 .past-meetups {
     width: 80%;
     margin: 20px auto;
-    background-color: lightblue;
-    padding: 40px;
 }
+
 .meetup h4 {
     padding: 20px 0;
 }
-.locations img
-{
+
+.locations img {
     height: 500px;
 }
+
 .meetup {
     width: 100%;
     margin: 20px auto;
     background-color: white;
 }
+
 .meetup img {
-    width: 80%; 
+    width: 80%;
     display: block;
     margin: 0 auto;
     padding: 20px;
 }
 
 @media (min-width: 500px) {
-    header > img {
+    header>img {
         width: 20%;
     }
     .meetup {
         width: 80%;
     }
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #eef;
+    margin: 0;
+    text-align: center;
+    padding: 40px 0;
+    opacity: .6;
+}
+
+footer>p {
+    margin: 10px auto;
+    font-size: .9rem;
+}
+
+
+/* Event Page */
+
+#events {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#events>.card {
+    border-radius: 10px;
+    margin: 20px;
+    width: 30%;
+    max-width: 500px;
+    flex: auto;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .2);
+}
+
+@media(max-width: 800px) {
+    #events>.card {
+        width: 100%;
+    }
+}
+
+.card-block {
+    text-align: center;
+    padding: 10px;
+}
+
+.card-block>h4 {
+    font-size: 1.5rem;
+}
+
+.card-block p {
+    padding: 10px 0;
 }
